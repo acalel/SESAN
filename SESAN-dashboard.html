@@ -1,0 +1,100 @@
+<!--Design by foolishdeveloper.com-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+   
+    <div class="wrapper">
+       <div class="section">
+   
+    <div class="container">
+     
+    </div>
+  </div>
+        <div class="sidebar">
+            <div class="profile">
+                <img src="image7.png" alt="profile_picture">
+               
+            </div>
+            <div class="separador"></div>
+            <br>
+            <div class="usuario">
+                <img src="Ellipse2.png" alt="">
+                <h3>Usuario Admin</h3>
+                <p>Ministerio de Salud</p>
+            </div>
+            <br>
+            <div class="separadorB"></div>
+            <ul>
+               
+                <li>
+                    <a href="#">
+                        Ministerio de Salud
+                    </a>
+                </li>
+                <li>
+                    <a href="#">WFP </a>
+                </li>
+                <li>
+                    <a href="#">SESAN</a>
+                </li>
+                <li>
+                    <a href="#">Administración</a>
+                    <ul>
+                        <li><a href="#">Enlace 2.1</a></li>
+                        <li><a href="#">Enlace 2.2</a></li>
+                        <li><a href="#">Enlace 2.3</a></li>
+                      </ul>
+                </li>
+              
+                
+            </ul>
+        </div>
+        
+    </div>
+
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+ <script>
+     $(document).ready(function () {
+  var trigger = $('.hamburger'),
+      overlay = $('.overlay'),
+     isClosed = false;
+
+    trigger.click(function () {
+      hamburger_cross();      
+    });
+
+    function hamburger_cross() {
+
+      if (isClosed == true) {          
+        overlay.hide();
+        trigger.removeClass('is-open');
+        trigger.addClass('is-closed');
+        isClosed = false;
+      } else {   
+        overlay.show();
+        trigger.removeClass('is-closed');
+        trigger.addClass('is-open');
+        isClosed = true;
+      }
+  }
+  
+  $('[data-toggle="offcanvas"]').click(function () {
+        $('#wrapper').toggleClass('toggled');
+  });  
+});
+ </script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+
+body{
+    margin: 0;
+}
+
+.logo{
+width: 40%;
+    
+}
+
+.imgLogo{
+   
+
+    position: absolute;
+    height: 623px;
+    width: 550px;
+    left: 0px;
+top: -3px;
+}
+
+.formulario {
+    float: right;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+}
+.titulo1{
+    position: absolute;
+    width: 132px;
+    height: 55px;
+    left: 640px;
+    top: 140px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 55px;
+    
+    color: #003658;
+}
+
+.titulo2{
+    position: absolute;
+width: 431px;
+height: 24px;
+left: 640px;
+top: 200px;
+
+/* Textos */
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #707070
+
+}
+
+.formatoC{
+    position: absolute;
+    width: 500px;
+    height: 35px;
+    left: 640px;
+    top: 250px;
+    border-radius: 5px;
+    color: #707070;
+    
+}
+.formatoP{
+    position: absolute;
+    width: 500px;
+    height: 35px;
+    left: 640px;
+    top: 310px;
+    border-radius: 5px;
+    color: #707070;
+}
+
+
+
+.btnprimario{
+    background-color: #003658;
+    color: white;
+   
+    border-radius: 9px;
+
+    position: absolute;
+width: 200px;
+height: 50px;
+left: 640px;
+top: 370px;
+}
+
+.small{
+    position: absolute;
+width: 150px;
+height: 20px;
+left: 940px;
+top: 375px;
+
+/* Textos */
+
+font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #003658;
+}
